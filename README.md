@@ -1,3 +1,3 @@
-# My Portfolio Website
+# My Test Portfolio Website
 
-[Click here to view](https://jayychang.github.io/portfolio/) 
+[Click here to view](https://jayychang.github.io/testPortfolio/) 
