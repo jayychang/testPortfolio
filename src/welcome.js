@@ -4,7 +4,7 @@ import {init} from 'ityped';
 class Welcome extends Component {
   componentDidMount() {
     init(this.refs.typed, {
-      strings:['Jay Chang :)', 'Software Engineer', 'Full Stack Developer', 'Web and Mobile', 'Scroll for more...'],
+      strings:['Jay Chang :)', 'Software Engineer', 'Full Stack Developer', 'Web and Mobile', 'Vancouver, BC'],
       startDelay: 300,
       backDelay: 1200,
       loop: true

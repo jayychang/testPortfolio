@@ -11,12 +11,13 @@ import AboutMe from './aboutme';
 import Skills from './skills';
 import Footer from './footer';
 
+import ExperiencesProjects from './experienceProject'
+
 ReactDOM.render(
   <div>
   	<Welcome />
   	<StickyNav />
-    <Experiences />
-    <Projects />
+    <ExperiencesProjects />
     <AboutMe />
     <Skills />
     <Footer />

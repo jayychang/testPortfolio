@@ -32,6 +32,11 @@ body {
 }
 
 #Welcome {
+  z-index: -20;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   height: 100vh;
   display:flex;
   align-items: center;
@@ -39,23 +44,32 @@ body {
   padding-bottom: 80px;
 }
 
-#Projects {
-  background-image: url('assets/projectsbg.jpg');
+#ExperiencesProjects {
+  margin-top: 100vh;
+/*  background-image: url('assets/experiencesbg.jpg');
   background-repeat: no-repeat;
   background-position: center; 
-  background-size: cover;
+  background-size: cover;*/
 }
 
-#Experiences {
-  background-image: url('assets/experiencesbg.jpg');
+#Projects {
+/*  background-image: url('assets/projectsbg.jpg');
   background-repeat: no-repeat;
   background-position: center; 
-  background-size: cover;
+  background-size: cover;*/
+}
+
+#AboutMe {
+  background-color: white;
+}
+
+#Skills {
+  background-color: white;
 }
 
 #Footer {
-  background-image: url('assets/footerbg.jpg');
+/*  background-image: url('assets/footerbg.jpg');
   background-repeat: no-repeat;
   background-position: center; 
-  background-size: cover;
+  background-size: cover;*/
 }

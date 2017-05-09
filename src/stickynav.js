@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-
 class StickyNav extends Component {
   constructor(props) {
     super(props);
@@ -28,13 +27,13 @@ class StickyNav extends Component {
   stickyScroll() {
     const dist = window.innerHeight - event.srcElement.body.scrollTop - 60;
     if (dist <= 0) {
-      if (this.sticky == 'notSticky'){
+      if (this.sticky === 'notSticky'){
         this.sticky = 'isSticky'
         const style ={position: 'fixed', top:0, bottom:'auto'}
         this.setState(style);
       }
     } else {
-	  if (this.sticky == 'isSticky'){
+	  if (this.sticky === 'isSticky'){
 	    this.sticky = 'notSticky'
        const style ={position: 'absolute', top:'auto', bottom:0}
 	    this.setState(style)

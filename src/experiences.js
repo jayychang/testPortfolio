@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {Grid, Row, Col} from 'react-bootstrap';
 import sr from './scrollReveal.js';
 
+import { Parallax } from 'react-parallax';
+
 class Experiences extends Component {  
   componentDidMount() {
     sr.reveal(this.refs.header, {reset: true, useDelay: 'onload', viewOffset: { top: 80, right: 0, bottom: 0, left: 0 }});
@@ -13,6 +15,7 @@ class Experiences extends Component {
 
   	return (
   	  <section id='Experiences'>
+      <Parallax bgImage={require('./assets/experiencesbg.jpg')} strength={400}>
         <div className='header' ref='header' style={styles}>Experiences</div>
         <Grid fluid>
           <Row>
@@ -21,6 +24,7 @@ class Experiences extends Component {
             <Col className='noPad' xs={12} sm={4}><Box url='https://fusionpipe.com' bg='./assets/fusionpipebg.jpg' logo='./assets/fusionpipelogo.png' description='Multi-Factor Authentication' /></Col>
           </Row>
         </Grid>
+        </Parallax>
       </section>
     );
   }

@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Grid, Row, Col} from 'react-bootstrap';
 
+import { Parallax } from 'react-parallax';
+
 class Footer extends Component {
   render() {
   	const styles = 
@@ -10,6 +12,8 @@ class Footer extends Component {
 
     return (
       <section id='Footer' style={styles}>
+                  <Parallax bgImage={require('./assets/footerbg.jpg')} strength={400}>
+
         <Grid>
           <Row>
           <Col xs={3} />
@@ -19,6 +23,7 @@ class Footer extends Component {
           <Col xs={3} />
           </Row>
         </Grid>
+        </Parallax>
       </section>
     )
   }

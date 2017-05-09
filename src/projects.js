@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {Grid, Row, Col} from 'react-bootstrap';
 import sr from './scrollReveal.js';
 
+import { Parallax } from 'react-parallax';
+
 class Projects extends Component {  
   componentDidMount() {
     sr.reveal(this.refs.header, {reset: true, useDelay: 'onload', viewOffset: { top: 80}});
@@ -13,6 +15,8 @@ class Projects extends Component {
       
     return (
       <section id='Projects'>
+            <Parallax bgImage={require('./assets/projectsbg.jpg')} strength={400}>
+
         <div className="header" ref='header' style={styles}>Personal Projects</div>
         <Grid fluid>
           <Row>
@@ -24,6 +28,8 @@ class Projects extends Component {
             <Circle url='https://github.com/jayychang/FirebaseChat' bg='./assets/chat.png' description='Firebase Chatroom' />
           </Row>
         </Grid>
+              </Parallax>
+
       </section>
     );
   }
