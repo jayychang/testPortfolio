@@ -1,0 +1,160 @@
+
+
+/* welcome */
+.typed {
+  font-size: 6rem;
+}
+
+.ityped-cursor {
+    font-size: 6rem;
+    color: #888;
+    opacity: 1;
+    -webkit-animation: blink 0.6s infinite;
+    -moz-animation: blink 0.6s infinite;
+    animation: blink 0.6s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+/* experience */
+
+/* Box */
+/*.boxWrapper {
+  width: 100%;
+  position: relative;
+  overflow:hidden;
+  padding-bottom: 80%; 
+}
+.boxBgWrapper {
+  z-index: -1;
+  transition: .3s all;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.boxContentWrapper {
+  transition: .3s all;
+  background: rgba(255, 255, 255, 0.7);
+  opacity: 0;
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoWrapper {
+  z-index: 2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align:center;
+  width: 70%;
+}
+.boxWrapper:hover .boxBgWrapper {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+.boxWrapper:hover .boxContentWrapper {
+  opacity: 1;
+}
+*/
+/* Circle */
+.circleWrapper {
+  width: 70%;
+  position: relative;
+  overflow:hidden;
+  padding-bottom: 70%; 
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+/*  border-radius: 50%;
+  border: 4px solid #e6eaed;*/
+}
+.circleBgWrapper {
+  z-index: -1;
+  transition: .3s all;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.circleContentWrapper {
+  transition: .3s all;
+  background: rgba(255, 255, 255, 0.7);
+  opacity: 0;
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;  
+}
+.logoWrapper {
+  z-index: 2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align:center;
+  width: 80%;
+}
+.circleWrapper:hover .circleBgWrapper {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.circleWrapper:hover .circleContentWrapper {
+  opacity: 1;
+}
+
+.linedHeader {
+  margin-top: 0;
+  margin-bottom: 0.37em;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #EFEFEF
+}
+
+.myPhoto {
+  border-radius: 10%;
+  padding: 20px;
+}
+
+.footer {
+  color: white;
+}
+
+.icon {
+  height: 64px;
+  display:block;
+  margin: 38px auto;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}

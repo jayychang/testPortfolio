@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Dosis;
+    src: url(./assets/dosis/Dosis-Regular.otf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 2em;
+}
+
+.header {
+  height: 200px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+.noPad {
+	padding: 0;
+}
+
+#Navigation {
+  height: 60px;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+}
+
+#Welcome {
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+#Projects {
+  background-image: url('assets/projectsbg.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+}
+
+#Experiences {
+  background-image: url('assets/experiencesbg.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+}
+
+#Footer {
+  background-image: url('assets/footerbg.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+}
